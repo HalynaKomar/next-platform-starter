@@ -33,11 +33,11 @@ export default function RootLayout() {
         />
         <script
     async
-	src="https://stage-widget.intelswift.com/script.js"
-	data-tenant-id="ddf8df61-849b-4bd7-8fbf-bced2fdfcc78"
-	data-bot-id="6943e64520ba1c0e6c1c2b8b"
-	data-assistant-id="68b9a981d1879653cbe0a1ff"
-	data-uuid="3dc288b3-3e09-4295-9d7e-32c3f643f238"
+	src="https://widget.intelswift.com/script.js"
+	data-tenant-id="094f2d86-c31e-4a4c-b5b5-c890ee26399a"
+	data-bot-id="68fa6969f0814bc4a8c7bf30"
+	data-assistant-id="68fa61e4f0814bc4a8c7bcac"
+	data-uuid="d339ae04-888e-44c6-bf9c-d6fe61adaa14"
 	data-sandbox="false"
         ></script>
         <script
@@ -45,8 +45,8 @@ export default function RootLayout() {
             __html: `
               window.addEventListener("message", (event) => {
                 if (event.data?.type === "messengerReady") {
-		const iframe = document.getElementById("iFrameMessenger");
-		iframe?.contentWindow.postMessage({ type: "verifyOrigin", href: window.location.href }, "*");
+                  const iframe = document.getElementById("iFrameMessenger");
+                  iframe?.contentWindow.postMessage({ type: "verifyOrigin", href: window.location.href }, "*");
                 }
               });
             `,
