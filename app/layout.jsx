@@ -35,9 +35,9 @@ export default function RootLayout() {
     async
 	src="https://stage-widget.intelswift.com/script.js"
 	data-tenant-id="b1e64ada-5248-429c-bb74-2c1652080eb9"
-	data-bot-id="698a1713439a044fc5494eb3"
-	data-assistant-id="698a1546b18f510be6e593a7"
-	data-uuid="c5cf7168-dfeb-44e7-b6d9-2bb042b6ef09"
+	data-bot-id="6997003cd07db4be98654693"
+	data-assistant-id="699571e177fff9bca8eab6a7"
+	data-uuid="16c463cd-9e1e-43c1-8df6-a1407db23fd8"
 	data-sandbox="false"
         ></script>
         <script
